@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		465932982704FA83005A85DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 465932972704FA83005A85DB /* AppDelegate.m */; };
+		4659329A2704FA85005A85DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465932992704FA85005A85DB /* Assets.xcassets */; };
+		4659329D2704FA85005A85DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4659329B2704FA85005A85DB /* MainMenu.xib */; };
+		4659329F2704FA85005A85DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4659329E2704FA85005A85DB /* main.m */; };
+		465932AA2704FA85005A85DB /* PS04_GearViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 465932A92704FA85005A85DB /* PS04_GearViewerTests.m */; };
+		465932B42704FA85005A85DB /* PS04_GearViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 465932B32704FA85005A85DB /* PS04_GearViewerUITests.m */; };
+		465932B62704FA85005A85DB /* PS04_GearViewerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 465932B52704FA85005A85DB /* PS04_GearViewerUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		465932A62704FA85005A85DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4659328B2704FA83005A85DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465932922704FA83005A85DB;
+			remoteInfo = PS04_GearViewer;
+		};
+		465932B02704FA85005A85DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4659328B2704FA83005A85DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465932922704FA83005A85DB;
+			remoteInfo = PS04_GearViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		465932932704FA83005A85DB /* PS04_GearViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PS04_GearViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		465932962704FA83005A85DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		465932972704FA83005A85DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		465932992704FA85005A85DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4659329C2704FA85005A85DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4659329E2704FA85005A85DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		465932A02704FA85005A85DB /* PS04_GearViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PS04_GearViewer.entitlements; sourceTree = "<group>"; };
+		465932A52704FA85005A85DB /* PS04_GearViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PS04_GearViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		465932A92704FA85005A85DB /* PS04_GearViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PS04_GearViewerTests.m; sourceTree = "<group>"; };
+		465932AF2704FA85005A85DB /* PS04_GearViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PS04_GearViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		465932B32704FA85005A85DB /* PS04_GearViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PS04_GearViewerUITests.m; sourceTree = "<group>"; };
+		465932B52704FA85005A85DB /* PS04_GearViewerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PS04_GearViewerUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		465932902704FA83005A85DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465932A22704FA85005A85DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465932AC2704FA85005A85DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4659328A2704FA83005A85DB = {
+			isa = PBXGroup;
+			children = (
+				465932952704FA83005A85DB /* PS04_GearViewer */,
+				465932A82704FA85005A85DB /* PS04_GearViewerTests */,
+				465932B22704FA85005A85DB /* PS04_GearViewerUITests */,
+				465932942704FA83005A85DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		465932942704FA83005A85DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				465932932704FA83005A85DB /* PS04_GearViewer.app */,
+				465932A52704FA85005A85DB /* PS04_GearViewerTests.xctest */,
+				465932AF2704FA85005A85DB /* PS04_GearViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		465932952704FA83005A85DB /* PS04_GearViewer */ = {
+			isa = PBXGroup;
+			children = (
+				465932962704FA83005A85DB /* AppDelegate.h */,
+				465932972704FA83005A85DB /* AppDelegate.m */,
+				465932992704FA85005A85DB /* Assets.xcassets */,
+				4659329B2704FA85005A85DB /* MainMenu.xib */,
+				4659329E2704FA85005A85DB /* main.m */,
+				465932A02704FA85005A85DB /* PS04_GearViewer.entitlements */,
+			);
+			path = PS04_GearViewer;
+			sourceTree = "<group>";
+		};
+		465932A82704FA85005A85DB /* PS04_GearViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				465932A92704FA85005A85DB /* PS04_GearViewerTests.m */,
+			);
+			path = PS04_GearViewerTests;
+			sourceTree = "<group>";
+		};
+		465932B22704FA85005A85DB /* PS04_GearViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				465932B32704FA85005A85DB /* PS04_GearViewerUITests.m */,
+				465932B52704FA85005A85DB /* PS04_GearViewerUITestsLaunchTests.m */,
+			);
+			path = PS04_GearViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		465932922704FA83005A85DB /* PS04_GearViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465932B92704FA85005A85DB /* Build configuration list for PBXNativeTarget "PS04_GearViewer" */;
+			buildPhases = (
+				4659328F2704FA83005A85DB /* Sources */,
+				465932902704FA83005A85DB /* Frameworks */,
+				465932912704FA83005A85DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PS04_GearViewer;
+			productName = PS04_GearViewer;
+			productReference = 465932932704FA83005A85DB /* PS04_GearViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		465932A42704FA85005A85DB /* PS04_GearViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465932BC2704FA85005A85DB /* Build configuration list for PBXNativeTarget "PS04_GearViewerTests" */;
+			buildPhases = (
+				465932A12704FA85005A85DB /* Sources */,
+				465932A22704FA85005A85DB /* Frameworks */,
+				465932A32704FA85005A85DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				465932A72704FA85005A85DB /* PBXTargetDependency */,
+			);
+			name = PS04_GearViewerTests;
+			productName = PS04_GearViewerTests;
+			productReference = 465932A52704FA85005A85DB /* PS04_GearViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		465932AE2704FA85005A85DB /* PS04_GearViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465932BF2704FA85005A85DB /* Build configuration list for PBXNativeTarget "PS04_GearViewerUITests" */;
+			buildPhases = (
+				465932AB2704FA85005A85DB /* Sources */,
+				465932AC2704FA85005A85DB /* Frameworks */,
+				465932AD2704FA85005A85DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				465932B12704FA85005A85DB /* PBXTargetDependency */,
+			);
+			name = PS04_GearViewerUITests;
+			productName = PS04_GearViewerUITests;
+			productReference = 465932AF2704FA85005A85DB /* PS04_GearViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4659328B2704FA83005A85DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					465932922704FA83005A85DB = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					465932A42704FA85005A85DB = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 465932922704FA83005A85DB;
+					};
+					465932AE2704FA85005A85DB = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 465932922704FA83005A85DB;
+					};
+				};
+			};
+			buildConfigurationList = 4659328E2704FA83005A85DB /* Build configuration list for PBXProject "PS04_GearViewer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4659328A2704FA83005A85DB;
+			productRefGroup = 465932942704FA83005A85DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				465932922704FA83005A85DB /* PS04_GearViewer */,
+				465932A42704FA85005A85DB /* PS04_GearViewerTests */,
+				465932AE2704FA85005A85DB /* PS04_GearViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		465932912704FA83005A85DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4659329A2704FA85005A85DB /* Assets.xcassets in Resources */,
+				4659329D2704FA85005A85DB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465932A32704FA85005A85DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465932AD2704FA85005A85DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4659328F2704FA83005A85DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4659329F2704FA85005A85DB /* main.m in Sources */,
+				465932982704FA83005A85DB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465932A12704FA85005A85DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465932AA2704FA85005A85DB /* PS04_GearViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465932AB2704FA85005A85DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465932B62704FA85005A85DB /* PS04_GearViewerUITestsLaunchTests.m in Sources */,
+				465932B42704FA85005A85DB /* PS04_GearViewerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		465932A72704FA85005A85DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 465932922704FA83005A85DB /* PS04_GearViewer */;
+			targetProxy = 465932A62704FA85005A85DB /* PBXContainerItemProxy */;
+		};
+		465932B12704FA85005A85DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 465932922704FA83005A85DB /* PS04_GearViewer */;
+			targetProxy = 465932B02704FA85005A85DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4659329B2704FA85005A85DB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4659329C2704FA85005A85DB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		465932B72704FA85005A85DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		465932B82704FA85005A85DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		465932BA2704FA85005A85DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PS04_GearViewer/PS04_GearViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu.PS04-GearViewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		465932BB2704FA85005A85DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PS04_GearViewer/PS04_GearViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu.PS04-GearViewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		465932BD2704FA85005A85DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu.PS04-GearViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PS04_GearViewer.app/Contents/MacOS/PS04_GearViewer";
+			};
+			name = Debug;
+		};
+		465932BE2704FA85005A85DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu.PS04-GearViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PS04_GearViewer.app/Contents/MacOS/PS04_GearViewer";
+			};
+			name = Release;
+		};
+		465932C02704FA85005A85DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu.PS04-GearViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = PS04_GearViewer;
+			};
+			name = Debug;
+		};
+		465932C12704FA85005A85DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cmu.PS04-GearViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = PS04_GearViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4659328E2704FA83005A85DB /* Build configuration list for PBXProject "PS04_GearViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465932B72704FA85005A85DB /* Debug */,
+				465932B82704FA85005A85DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465932B92704FA85005A85DB /* Build configuration list for PBXNativeTarget "PS04_GearViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465932BA2704FA85005A85DB /* Debug */,
+				465932BB2704FA85005A85DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465932BC2704FA85005A85DB /* Build configuration list for PBXNativeTarget "PS04_GearViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465932BD2704FA85005A85DB /* Debug */,
+				465932BE2704FA85005A85DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465932BF2704FA85005A85DB /* Build configuration list for PBXNativeTarget "PS04_GearViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465932C02704FA85005A85DB /* Debug */,
+				465932C12704FA85005A85DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4659328B2704FA83005A85DB /* Project object */;
+}
