@@ -1,7 +1,7 @@
 #include <sstream>
 #include <fstream>
 #include <math.h>
-#include "StringPlus.h" // Enable trim function
+#include "StringPlus.h"
 #include "Gear.hpp"
 #include "fssimplewindow.h"
 #include "ysglfontdata.h"
