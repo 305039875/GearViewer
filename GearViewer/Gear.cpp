@@ -1,6 +1,6 @@
 #include <sstream>
 #include <fstream>
-#include <math.h> //sdfsdfasd
+#include <math.h>
 #include "StringPlus.h"
 #include "Gear.hpp"
 #include "fssimplewindow.h"
