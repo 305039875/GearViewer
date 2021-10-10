@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		465932982704FA83005A85DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 465932972704FA83005A85DB /* AppDelegate.m */; };
 		4659329A2704FA85005A85DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465932992704FA85005A85DB /* Assets.xcassets */; };
 		4659329D2704FA85005A85DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4659329B2704FA85005A85DB /* MainMenu.xib */; };
-		4659329F2704FA85005A85DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4659329E2704FA85005A85DB /* main.m */; };
 		465932AA2704FA85005A85DB /* PS04_GearViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 465932A92704FA85005A85DB /* PS04_GearViewerTests.m */; };
 		465932B42704FA85005A85DB /* PS04_GearViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 465932B32704FA85005A85DB /* PS04_GearViewerUITests.m */; };
 		465932B62704FA85005A85DB /* PS04_GearViewerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 465932B52704FA85005A85DB /* PS04_GearViewerUITestsLaunchTests.m */; };
+		465932C62704FDF4005A85DB /* A2.gear in Resources */ = {isa = PBXBuildFile; fileRef = 465932C22704FDF4005A85DB /* A2.gear */; };
+		465932C72704FDF4005A85DB /* GearViewer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 465932C32704FDF4005A85DB /* GearViewer.cpp */; };
+		465932C82704FDF4005A85DB /* A1.gear in Resources */ = {isa = PBXBuildFile; fileRef = 465932C42704FDF4005A85DB /* A1.gear */; };
+		465932CF2704FE35005A85DB /* ysglfontdata.c in Sources */ = {isa = PBXBuildFile; fileRef = 465932CA2704FE35005A85DB /* ysglfontdata.c */; };
+		465932D02704FE35005A85DB /* fssimplewindowcpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 465932CC2704FE35005A85DB /* fssimplewindowcpp.cpp */; };
+		465932D12704FE35005A85DB /* fssimplewindowobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 465932CE2704FE35005A85DB /* fssimplewindowobjc.m */; };
+		465932D42704FE6E005A85DB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465932D32704FE6E005A85DB /* OpenGL.framework */; };
+		465932D62704FE74005A85DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465932D52704FE74005A85DB /* Cocoa.framework */; };
+		465932DC2705069C005A85DB /* Gear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 465932DA2705069C005A85DB /* Gear.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,17 +42,27 @@
 
 /* Begin PBXFileReference section */
 		465932932704FA83005A85DB /* PS04_GearViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PS04_GearViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		465932962704FA83005A85DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		465932972704FA83005A85DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		465932992704FA85005A85DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4659329C2704FA85005A85DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		4659329E2704FA85005A85DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		465932A02704FA85005A85DB /* PS04_GearViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PS04_GearViewer.entitlements; sourceTree = "<group>"; };
 		465932A52704FA85005A85DB /* PS04_GearViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PS04_GearViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		465932A92704FA85005A85DB /* PS04_GearViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PS04_GearViewerTests.m; sourceTree = "<group>"; };
 		465932AF2704FA85005A85DB /* PS04_GearViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PS04_GearViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		465932B32704FA85005A85DB /* PS04_GearViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PS04_GearViewerUITests.m; sourceTree = "<group>"; };
 		465932B52704FA85005A85DB /* PS04_GearViewerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PS04_GearViewerUITestsLaunchTests.m; sourceTree = "<group>"; };
+		465932C22704FDF4005A85DB /* A2.gear */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = A2.gear; path = ../../A2.gear; sourceTree = "<group>"; };
+		465932C32704FDF4005A85DB /* GearViewer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GearViewer.cpp; path = ../../GearViewer.cpp; sourceTree = "<group>"; };
+		465932C42704FDF4005A85DB /* A1.gear */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = A1.gear; path = ../../A1.gear; sourceTree = "<group>"; };
+		465932CA2704FE35005A85DB /* ysglfontdata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ysglfontdata.c; path = ../../../../OpenGL/ysglfontdata.c; sourceTree = "<group>"; };
+		465932CB2704FE35005A85DB /* ysglfontdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ysglfontdata.h; path = ../../../../OpenGL/ysglfontdata.h; sourceTree = "<group>"; };
+		465932CC2704FE35005A85DB /* fssimplewindowcpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fssimplewindowcpp.cpp; path = ../../../../OpenGL/fssimplewindowcpp.cpp; sourceTree = "<group>"; };
+		465932CD2704FE35005A85DB /* fssimplewindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fssimplewindow.h; path = ../../../../OpenGL/fssimplewindow.h; sourceTree = "<group>"; };
+		465932CE2704FE35005A85DB /* fssimplewindowobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = fssimplewindowobjc.m; path = ../../../../OpenGL/fssimplewindowobjc.m; sourceTree = "<group>"; };
+		465932D32704FE6E005A85DB /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		465932D52704FE74005A85DB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		465932D82704FF2D005A85DB /* StringPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringPlus.h; path = ../../StringPlus.h; sourceTree = "<group>"; };
+		465932DA2705069C005A85DB /* Gear.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gear.cpp; sourceTree = "<group>"; };
+		465932DB2705069C005A85DB /* Gear.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Gear.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465932D62704FE74005A85DB /* Cocoa.framework in Frameworks */,
+				465932D42704FE6E005A85DB /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,10 +95,11 @@
 		4659328A2704FA83005A85DB = {
 			isa = PBXGroup;
 			children = (
-				465932952704FA83005A85DB /* PS04_GearViewer */,
-				465932A82704FA85005A85DB /* PS04_GearViewerTests */,
-				465932B22704FA85005A85DB /* PS04_GearViewerUITests */,
+				465932952704FA83005A85DB /* GearViewer */,
+				465932A82704FA85005A85DB /* GearViewerTests */,
+				465932B22704FA85005A85DB /* GearViewerUITests */,
 				465932942704FA83005A85DB /* Products */,
+				465932D22704FE6D005A85DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,34 +113,51 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		465932952704FA83005A85DB /* PS04_GearViewer */ = {
+		465932952704FA83005A85DB /* GearViewer */ = {
 			isa = PBXGroup;
 			children = (
-				465932962704FA83005A85DB /* AppDelegate.h */,
-				465932972704FA83005A85DB /* AppDelegate.m */,
+				465932D82704FF2D005A85DB /* StringPlus.h */,
+				465932CD2704FE35005A85DB /* fssimplewindow.h */,
+				465932CC2704FE35005A85DB /* fssimplewindowcpp.cpp */,
+				465932CE2704FE35005A85DB /* fssimplewindowobjc.m */,
+				465932CA2704FE35005A85DB /* ysglfontdata.c */,
+				465932CB2704FE35005A85DB /* ysglfontdata.h */,
+				465932C42704FDF4005A85DB /* A1.gear */,
+				465932C22704FDF4005A85DB /* A2.gear */,
+				465932C32704FDF4005A85DB /* GearViewer.cpp */,
 				465932992704FA85005A85DB /* Assets.xcassets */,
 				4659329B2704FA85005A85DB /* MainMenu.xib */,
-				4659329E2704FA85005A85DB /* main.m */,
 				465932A02704FA85005A85DB /* PS04_GearViewer.entitlements */,
+				465932DA2705069C005A85DB /* Gear.cpp */,
+				465932DB2705069C005A85DB /* Gear.hpp */,
 			);
-			path = PS04_GearViewer;
+			path = GearViewer;
 			sourceTree = "<group>";
 		};
-		465932A82704FA85005A85DB /* PS04_GearViewerTests */ = {
+		465932A82704FA85005A85DB /* GearViewerTests */ = {
 			isa = PBXGroup;
 			children = (
 				465932A92704FA85005A85DB /* PS04_GearViewerTests.m */,
 			);
-			path = PS04_GearViewerTests;
+			path = GearViewerTests;
 			sourceTree = "<group>";
 		};
-		465932B22704FA85005A85DB /* PS04_GearViewerUITests */ = {
+		465932B22704FA85005A85DB /* GearViewerUITests */ = {
 			isa = PBXGroup;
 			children = (
 				465932B32704FA85005A85DB /* PS04_GearViewerUITests.m */,
 				465932B52704FA85005A85DB /* PS04_GearViewerUITestsLaunchTests.m */,
 			);
-			path = PS04_GearViewerUITests;
+			path = GearViewerUITests;
+			sourceTree = "<group>";
+		};
+		465932D22704FE6D005A85DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				465932D52704FE74005A85DB /* Cocoa.framework */,
+				465932D32704FE6E005A85DB /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4659328E2704FA83005A85DB /* Build configuration list for PBXProject "PS04_GearViewer" */;
+			buildConfigurationList = 4659328E2704FA83005A85DB /* Build configuration list for PBXProject "GearViewer" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,7 +263,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465932C62704FDF4005A85DB /* A2.gear in Resources */,
 				4659329A2704FA85005A85DB /* Assets.xcassets in Resources */,
+				465932C82704FDF4005A85DB /* A1.gear in Resources */,
 				4659329D2704FA85005A85DB /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,8 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4659329F2704FA85005A85DB /* main.m in Sources */,
-				465932982704FA83005A85DB /* AppDelegate.m in Sources */,
+				465932D12704FE35005A85DB /* fssimplewindowobjc.m in Sources */,
+				465932D02704FE35005A85DB /* fssimplewindowcpp.cpp in Sources */,
+				465932C72704FDF4005A85DB /* GearViewer.cpp in Sources */,
+				465932CF2704FE35005A85DB /* ysglfontdata.c in Sources */,
+				465932DC2705069C005A85DB /* Gear.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,7 +589,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4659328E2704FA83005A85DB /* Build configuration list for PBXProject "PS04_GearViewer" */ = {
+		4659328E2704FA83005A85DB /* Build configuration list for PBXProject "GearViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				465932B72704FA85005A85DB /* Debug */,
