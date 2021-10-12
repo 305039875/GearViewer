@@ -13,6 +13,11 @@ private:
     int numbTeeth;
     Point2D loc;        // current location of gear {x, y}
     float angle;        // current rotation of gear in degrees
+    
+    
+    std::vector<Gear *> attachedGears;
+    std::vector<Gear *> meshedGears;
+    
 public:
     // reads data from a file over-riding any existing data. We’ll work on
     // this function in class together.
@@ -24,9 +29,16 @@ public:
     // draws the gear on graphics window using simplified geometry as attached
     void draw();
     // rotate the gear by given amount
-    void rotate(float rotAngle) { angle += rotAngle; };
+    // and cause the rotation of connected gears (attached and meshed)
+    // except do not rotate the gear that is requesting the rotation
+    void rotate(float rotAngle, Gear *requestingGear = nullptr);
     
-
+    float getNumbTeeth() {return numbTeeth;};
+    
+    Point2D getLoc() {return loc;};
+    
+    float getRadius() {return (numbTeeth/pitch)/2;};
+    float getAngle() {return angle;};
     std::string getID() { return partID; }
     void setID(const std::string &newID) { partID = newID; }
     
@@ -44,10 +56,21 @@ public:
 //    void moveleft(float distance) { loc.x -= distance; };
 //    void moveright(float distance) { loc.x += distance; };
     void spin(float speed){
-        
             angle+=speed;
-        
-        
     };
-
+    // create a bi-directional attach relationship between this gear and
+    // otherGear, unless bi-directional is not appropriate
+    // may require this gear’s location to change to match otherGear’s
+    // returns false if connection cannot be done
+    bool attachToGear(Gear *otherGear, bool biDirectional = true);
+    
+    // create a bi-directional meshed relationship between this gear and
+    // otherGear, unless bi-directional is not appropriate
+    // may require this gear to translate (along line connecting centers)
+    // and rotate to allow meshing, but do not move or rotate otherGear
+    // returns false if connection cannot be done (unmatched pitches)
+    bool meshInto(Gear *otherGear, bool biDirectional = true);
+    
+    void edit();
+    
 };

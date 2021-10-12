@@ -21,6 +21,12 @@
 		465932D42704FE6E005A85DB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465932D32704FE6E005A85DB /* OpenGL.framework */; };
 		465932D62704FE74005A85DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465932D52704FE74005A85DB /* Cocoa.framework */; };
 		465932DC2705069C005A85DB /* Gear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 465932DA2705069C005A85DB /* Gear.cpp */; };
+		469D4AB627152A8E00D58909 /* B4.gear in Resources */ = {isa = PBXBuildFile; fileRef = 469D4AB127152A8E00D58909 /* B4.gear */; };
+		469D4AB727152A8E00D58909 /* B2.gear in Resources */ = {isa = PBXBuildFile; fileRef = 469D4AB227152A8E00D58909 /* B2.gear */; };
+		469D4AB827152A8E00D58909 /* B3.gear in Resources */ = {isa = PBXBuildFile; fileRef = 469D4AB327152A8E00D58909 /* B3.gear */; };
+		469D4AB927152A8E00D58909 /* B5.gear in Resources */ = {isa = PBXBuildFile; fileRef = 469D4AB427152A8E00D58909 /* B5.gear */; };
+		469D4ABA27152A8E00D58909 /* B1.gear in Resources */ = {isa = PBXBuildFile; fileRef = 469D4AB527152A8E00D58909 /* B1.gear */; };
+		46A2F72A27148B6800A6B196 /* GearSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46A2F72827148B6800A6B196 /* GearSystem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +69,13 @@
 		465932D82704FF2D005A85DB /* StringPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringPlus.h; path = ../../StringPlus.h; sourceTree = "<group>"; };
 		465932DA2705069C005A85DB /* Gear.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gear.cpp; sourceTree = "<group>"; };
 		465932DB2705069C005A85DB /* Gear.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Gear.hpp; sourceTree = "<group>"; };
+		469D4AB127152A8E00D58909 /* B4.gear */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = B4.gear; path = ../../B4.gear; sourceTree = "<group>"; };
+		469D4AB227152A8E00D58909 /* B2.gear */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = B2.gear; path = ../../B2.gear; sourceTree = "<group>"; };
+		469D4AB327152A8E00D58909 /* B3.gear */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = B3.gear; path = ../../B3.gear; sourceTree = "<group>"; };
+		469D4AB427152A8E00D58909 /* B5.gear */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = B5.gear; path = ../../B5.gear; sourceTree = "<group>"; };
+		469D4AB527152A8E00D58909 /* B1.gear */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = B1.gear; path = ../../B1.gear; sourceTree = "<group>"; };
+		46A2F72827148B6800A6B196 /* GearSystem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GearSystem.cpp; sourceTree = "<group>"; };
+		46A2F72927148B6800A6B196 /* GearSystem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GearSystem.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +129,11 @@
 		465932952704FA83005A85DB /* GearViewer */ = {
 			isa = PBXGroup;
 			children = (
+				469D4AB527152A8E00D58909 /* B1.gear */,
+				469D4AB227152A8E00D58909 /* B2.gear */,
+				469D4AB327152A8E00D58909 /* B3.gear */,
+				469D4AB127152A8E00D58909 /* B4.gear */,
+				469D4AB427152A8E00D58909 /* B5.gear */,
 				465932D82704FF2D005A85DB /* StringPlus.h */,
 				465932CD2704FE35005A85DB /* fssimplewindow.h */,
 				465932CC2704FE35005A85DB /* fssimplewindowcpp.cpp */,
@@ -130,6 +148,8 @@
 				465932A02704FA85005A85DB /* PS04_GearViewer.entitlements */,
 				465932DA2705069C005A85DB /* Gear.cpp */,
 				465932DB2705069C005A85DB /* Gear.hpp */,
+				46A2F72827148B6800A6B196 /* GearSystem.cpp */,
+				46A2F72927148B6800A6B196 /* GearSystem.hpp */,
 			);
 			path = GearViewer;
 			sourceTree = "<group>";
@@ -263,6 +283,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				469D4ABA27152A8E00D58909 /* B1.gear in Resources */,
+				469D4AB827152A8E00D58909 /* B3.gear in Resources */,
+				469D4AB727152A8E00D58909 /* B2.gear in Resources */,
+				469D4AB627152A8E00D58909 /* B4.gear in Resources */,
+				469D4AB927152A8E00D58909 /* B5.gear in Resources */,
 				465932C62704FDF4005A85DB /* A2.gear in Resources */,
 				4659329A2704FA85005A85DB /* Assets.xcassets in Resources */,
 				465932C82704FDF4005A85DB /* A1.gear in Resources */,
@@ -294,6 +319,7 @@
 				465932D12704FE35005A85DB /* fssimplewindowobjc.m in Sources */,
 				465932D02704FE35005A85DB /* fssimplewindowcpp.cpp in Sources */,
 				465932C72704FDF4005A85DB /* GearViewer.cpp in Sources */,
+				46A2F72A27148B6800A6B196 /* GearSystem.cpp in Sources */,
 				465932CF2704FE35005A85DB /* ysglfontdata.c in Sources */,
 				465932DC2705069C005A85DB /* Gear.cpp in Sources */,
 			);
